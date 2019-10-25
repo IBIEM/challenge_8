@@ -1,6 +1,6 @@
 # Challenge 9: Diversity is the grandmother of invention
-- *Assigned: February 15, 2019*
-- *Due: at 6pm on February 22, 2019*
+- *Assigned: October 25, 2019*
+- *Due: at 6pm on November 22, 2019*
 
 ## Assignment
 You should have received an email invitation to access this assigment in Github Classroom.  If you haven't received it, please [post an Issue](https://github.com/IBIEM/community/issues)

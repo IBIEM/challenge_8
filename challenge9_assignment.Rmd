@@ -1,12 +1,14 @@
 ---
-title: "Challenge 8"
+title: "Challenge 9"
 subtitle: "Diversity is the grandmother of invention"
 output:
   html_document:
     df_print: paged
 ---
 # Alpha Diversity Challenges
+
 ```{r global_options, include=FALSE}
+library(knitr)
 knitr::opts_chunk$set(echo=TRUE, include=TRUE)
 ```
 
@@ -17,15 +19,15 @@ The goal of this challenge is to give you experience with alpha diversity.
 The [Phyloseq Alpha diversity Tutorial](https://joey711.github.io/phyloseq/plot_richness-examples.html) will be helpful for this challenge.
 
 ## Data
-For all of these challenges you will be using a lemur data phyloseq RDS that is available at `/data/tutorial_data/challenge6_lemur_full.rds`.
+For all of these challenges you will be using the *full* lemur data phyloseq RDS that is available at `/data/tutorial_data/lemur_full_phyloseq.rds`.
 
 ## Completing and Submitting
 You must fill in the chunks below as indicated, but you are free to add other chunks too.  To submit this assignment for full credit you should *commit* and *push*:
 
-1. This file (`challenge8_assignment.Rmd`)
-2. The knited version of this file (`challenge8_assignment.html`)
+1. This file (`challenge9_assignment.Rmd`)
+2. The knited version of this file (`challenge9_assignment.html`)
 
-These are the *ONLY* files you should include in your repo.  I strongly recommend that you put temporary files in a subdirectory of `/tmp`, for example `/tmp/scratch/challenge8`.  If you don't follow this advice, but instead put temporary files in your repo directory, you *must* be sure not to commit them to your repo. You will lose points if you commit any other files.
+These are the *ONLY* files you should include in your repo.  I strongly recommend that you put temporary files in a subdirectory of `/tmp`, for example `/tmp/scratch/challenge9`.  If you don't follow this advice, but instead put temporary files in your repo directory, you *must* be sure not to commit them to your repo. You will lose points if you commit any other files.
 
 
 # Challenge Chunks
@@ -53,7 +55,7 @@ Make alpha diversity plots using two different measures of alpha diversity.  Cho
 ```
 
 ## Alpha Diversity Boxplot
-Do you see any groups that show particularly high or low alpha diversity? A boxplot is a nice way to summarize and compare 1D scatterplots.  Try adding boxplots to your alpha diversity plots.
+Do you see any groups that show particularly high or low alpha diversity? A boxplot is a nice way to summarize and compare 1D scatterplots.  Try making a new plot that combines a boxplot with the alpha diversity plots.
 
 ```{r}
 

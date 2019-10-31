@@ -27,8 +27,7 @@ You must fill in the chunks below as indicated, but you are free to add other ch
 1. This file (`challenge9_assignment.Rmd`)
 2. The knited version of this file (`challenge9_assignment.html`)
 
-These are the *ONLY* files you should include in your repo.  I strongly recommend that you put temporary files in a subdirectory of `/tmp`, for example `/tmp/scratch/challenge9`.  If you don't follow this advice, but instead put temporary files in your repo directory, you *must* be sure not to commit them to your repo. You will lose points if you commit any other files.
-
+These are the *ONLY* files you should include in your repo.  I strongly recommend that you make a `scratch` subdirectory in your home directory, then make a subdirectory for this project in scratch, for example `~/scratch/challenge9`.  If you don't follow this advice, but instead put temporary files in your repo directory, you *must* be sure not to commit them to your repo, you will lose points if you do.
 
 # Challenge Chunks
 ## Load Libraries
